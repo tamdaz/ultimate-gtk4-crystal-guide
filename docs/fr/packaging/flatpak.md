@@ -55,7 +55,6 @@ end
 
 commands = [] of String
 
-# The following loop will go through all libs and symlink their libs to the parent folder.
 # La boucle ci-dessous va parcourir tous les bibliothèques et créer des raccourcis à ces libraries pour le dossier parent.
 commands << "for i in ./#{PATH}/*/; do ln -snf \"..\" \"$i/lib\"; done"
 commands += postinstall_scripts if postinstall_scripts.size > 0
