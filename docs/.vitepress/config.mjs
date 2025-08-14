@@ -142,7 +142,7 @@ function sidebarFr() {
             text: 'Structure',
             collapsible: true,
             items: [
-                { text: 'Template', link: '/fr/structure/template' },
+                { text: 'Modèle', link: '/fr/structure/template' },
                 { text: 'Organisation', link: '/fr/structure/organization' },
             ]
         },
@@ -150,9 +150,9 @@ function sidebarFr() {
             text: 'Concepts',
             collapsible: true,
             items: [
-                { text: 'Widgets', link: '/fr/concepts/widgets' },
-                { text: 'Signals', link: '/fr/concepts/signals' },
-                { text: 'Actions', link: '/fr/concepts/actions' },
+                { text: 'Les widgets', link: '/fr/concepts/widgets' },
+                { text: 'Les signaux', link: '/fr/concepts/signals' },
+                { text: 'Les actions', link: '/fr/concepts/actions' },
                 { text: 'GResource', link: '/fr/concepts/gresource' },
                 { text: 'Débogage', link: '/fr/concepts/debugging' },
             ]

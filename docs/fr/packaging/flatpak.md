@@ -4,7 +4,7 @@ Flatpak est un bac à sable au format paquet pour faire un empaquetage un peu as
 
 Vous pouvez écrire des configurations Flatpak soit en JSON ou en YAML, mais pour des raisons de compatibilité avec GNOME Builder, nous allons créer un fichier `data/APP_ID.json`.
 
-Pendant le processus de construction `shards` ne pourra pas télécharger les bibliothèques nécessaires. C'est pour cette raison que j'ai créer un script ci-dessous qui va à travers de votre fichier `shard.lock` et du dossier `lib/`, de collecter les versions du shard et les scripts de post-installation et les retourne au format correct et avec les instructions.
+Pendant le processus de construction `shards` ne pourra pas télécharger les bibliothèques nécessaires. C'est pour cette raison que j'ai créé un script ci-dessous qui va à travers de votre fichier `shard.lock` et du dossier `lib/`, de collecter les versions du shard et les scripts de post-installation et les retourne au format correct et avec les instructions.
 
 ```crystal
 # Génère les sources requises pour le Flatpak basé sur le fichier shard.lock.
