@@ -21,7 +21,7 @@ button.clicked_signal.connect do
 end
 ```
 
-[![GIF d'un code ci-dessus en action](/assets/fr/signals-0.gif)](/assets/fr/signals-0.webm)
+[![GIF d'un code ci-dessus en action](/assets/en/signals-0.gif)](/assets/en/signals-0.webm)
 
 ::: info
 Cliquer sur le GIF pour une résolution webm complète.
